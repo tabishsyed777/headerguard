@@ -1,0 +1,10 @@
+HTTP/2 200
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=31536000; includeSubDomains
+content-security-policy: default-src 'self'; frame-ancestors 'none'
+x-content-type-options: nosniff
+x-frame-options: DENY
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=()
+set-cookie: session_id=redacted-demo-value; Secure; HttpOnly; SameSite=Lax
+server: demo-edge
